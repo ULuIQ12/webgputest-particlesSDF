@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#threecanvas {
+	@apply absolute top-0 left-0 w-full h-full -z-10
+}
+#app {
+	@apply
+	
+	flex
+	flex-col
+	top-0
+	left-0
+	p-16
+}
+  
+
